@@ -1,12 +1,10 @@
-
+import Header from "./Layouts/header";
 
 export default function Home() {
   return (
     <>
       <div>
-        <p>
-          Hello!
-        </p>
+        <Header />
       </div>
     </>
   );

@@ -11,7 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        cinzel: ['Cinzel', 'serif'],
+        fell: ['"IM Fell English"', 'serif'],
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate")
+  ],
 };
