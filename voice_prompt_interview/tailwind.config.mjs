@@ -10,10 +10,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'magical-gold': '#D4AF37',
+        'magical-bronze': '#CD7F32',
       },
       fontFamily: {
         cinzel: ['Cinzel', 'serif'],
-        fell: ['"IM Fell English"', 'serif'],
+        fell: ['IM Fell English', 'serif'],
+        crimson: ['Crimson Pro', 'serif'],
       }
     },
   },
